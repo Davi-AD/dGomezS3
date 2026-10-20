@@ -4,7 +4,7 @@ public partial class vReporte : ContentPage
 {
 	public vReporte(string usuario)
 	{
-		InitializeComponent();
+		InitializeComponent();//
 		DisplayAlertAsync("HOLA" + usuario,"Bienvenido","ok");
 	}
 }
