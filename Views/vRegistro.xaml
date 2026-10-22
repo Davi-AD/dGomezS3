@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dGomezS3.Views.vRegistro"
              Title="vRegistro">
+    <ContentPage.Resources>
+        <Style x:Key="EstiloEntry" TargetType="Entry">
+            <Setter Property="Background" Value="BlueViolet"></Setter>
+            <Setter Property="TextColor" Value="Yellow"></Setter>
+        </Style>
+    </ContentPage.Resources>
     <VerticalStackLayout
         Spacing="20"
         Padding="20">
@@ -13,10 +19,12 @@
             HorizontalOptions="Center" />
         <Entry
             x:Name="txtUsuarioNuevo"
+            Style="{StaticResource EstiloEntry}"
             Placeholder="Ingresa el Usuario"
             ></Entry>
         <Entry
             x:Name="txtClave"
+            Style="{StaticResource EstiloEntry}"
             Placeholder="Clave Nueva"
             ></Entry>
         <Button
