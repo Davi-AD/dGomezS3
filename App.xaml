@@ -8,6 +8,8 @@
             <Setter Property="Background" Value="Brown"></Setter>
             <Setter Property="TextColor" Value="White"></Setter>
         </Style>
+        
+        
         <!-- <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
